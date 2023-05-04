@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black
+}
+
+.audio{
+    position: absolute;
+    top: 750px;
+    left: 580px;
+}
+
+.spotify{
+    display: flex;
+    width: 200px;
+    position: absolute;
+    left: 45px;
+    top: 20px
+}
+
+.texto{
+    color: rgb(170, 165, 165);
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 600;
+}
+
+.album{
+    width: 450px;
+    position: absolute;
+    top: 200px;
+    left: 500px;
+    
+}
+
+.menu{
+    position: absolute;
+    left: 90px;
+    top: 125px;
+    font-size: 50%;
+}
+
+.icones{
+    position: absolute; 
+	left: 40px;
+	top: 110px;
+    width: 50px;
+}
+
+.botoes{
+    position: absolute; 
+	left: 40px;
+	top: 260px;
+    width: 50px;
+}
+
+.linha{
+    position: absolute; 
+	left: 50px;
+	top: 400px;
+    width: 200px;
+}
+
+.playlists{
+    position: absolute; 
+	left: 50px;
+	top: 430px;
+    width: 300px;
+    font-size: 45%;
+    font-weight: 50;
+}
+
+.musica{
+    position: absolute;
+    top: 650px;
+    left: 650px;
+    color: white;
+}
+
+.cantor{
+    position: absolute;
+    top: 700px;
+    left: 675px;
+}
+
+
+.caixa{
+    color: white;
+    width:450px;
+    height: 420px;
+    background-color:rgb(145, 141, 141);
+    margin-left: 1100px;
+    margin-top: 0px;
+    position:absolute;
+    left:0;
+    flex-wrap: wrap;
+    text-align: center;
+    border-radius: 5%;
+}
+
+.box{
+    font-size: 200%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width:470px;
+    height: 420px;
+    background-color: black;
+    margin-left: 1090px;
+    margin-top: 200px;
+    position:relative;
+    left:0;
+    flex-wrap: wrap;
+    text-align: center;
+    border-radius: 5%;
+}
+
+.comando{
+    font-size: 100%;
+}
+    
+.container:hover .box {
+    left: 60%;
+    -webkit-transition: left 4s;
+    -moz-transition: left 4s;
+    -ms-transition: left 4s;
+    -o-transition: left 4s;
+    transition: left 4s;
+}      
+
+.container .box.ease-out {
+    transition-timing-function: ease-out;
+}
+
+.user{
+    font-size: 60%;
+    color: white;
+    position: absolute;
+    margin-top: -580px;
+    margin-left: 1750px;
+}
+
+.perfil{
+    width: 18px;
+    position: absolute;
+    margin-top: -578px;
+    margin-left: 1720px;
+}
+
+.legenda{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 1260px;
+}
+
+.random_button{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 1200px;
+    width: 100px;
+}
+
+.coracao{
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 1380px;
+    width: 60px;
+}
